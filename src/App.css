@@ -1,0 +1,140 @@
+.logo{
+    /* background-color: rgb(68, 85, 240); */
+    background-image: linear-gradient(60deg,#0937f0, #000e43);
+    padding: 0 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.start-btn .signin{
+background-color: aqua;
+}
+.search{
+    height: 2.5rem;
+    width: 20rem;
+    margin-right: 2rem;
+    border-radius: 10rem;
+    border: 1px solid rgb(108, 108, 108);
+    outline: none;
+}
+.search::placeholder{
+    padding: 1rem;
+}
+
+.cover-img{
+    width: 100%;
+    height: 85vh;
+    background-image: url(./images/Slice\ 10.png);
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(2px); */
+    /* background-repeat: no-repeat; */
+}
+.service{
+   margin-top: 8rem;
+   font-size: 2.5rem;
+}
+.get-btn{
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem 1.5rem;
+}
+.paragraph{
+    color: #efefef;
+}
+
+.navbar hr{
+    background-color: rgb(55, 73, 233);
+    border-radius: 5rem;
+    opacity: 100%;
+    border: none;
+    height: 4px;
+    margin-top: -3px;
+    /* width:60px; */
+}
+.navbar li{
+/* font-size: large; */
+font-weight: 600;
+}
+
+.footer form textarea,input{
+width: 20rem;
+margin-top: 5px;
+border-radius: 5px;
+outline: none;
+}
+
+.footer form textarea,input{
+    width: 20rem;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: none;
+    }
+.footer form input::placeholder{
+       
+       padding: 7px;
+       /* font-size: 12px; */
+     }
+     .footer form textarea::placeholder{
+       
+        padding: 7px;
+        position: relative;
+        top: 35px;
+        /* font-size: 12px; */
+      }
+.footer form input{
+    height: 40px;
+}         
+
+.footer .ft-btn{
+    width: 20rem;
+}
+
+.home, .aboutpage , .contact-page{
+    overflow-x: hidden;
+}
+
+#text {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.con-about{
+    background-color: #eee;
+}
+.about-img{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://img.freepik.com/free-photo/lovely-friends-looking-laptop-indoors_23-2148422470.jpg?t=st=1723626815~exp=1723630415~hmac=34e1e6c78530b013427f32727cb5fef80b1d005a66262ec6c015b1e751c17f1c&w=826);
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem 2rem 2rem 0 ;
+}
+.con-txt{
+    /* background: #cbcbcb; */
+    border-radius: 2rem 0 0 2rem ;
+}
+.how{
+    text-decoration: underline;
+}
+
+.con-img{
+    width: 100%;
+    height: 20rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20rem 0 0 20rem;
+}
+
+.top-contact{
+    margin: 3rem 3rem 0 2.5rem;
+}
+
+.con-card{
+    background-color: #ffff;
+    /* border: 1px solid #ccc; */
+    /* margin-top: -20rem; */
+}
+
+/* .cont-img{
+    width: 3rem;
+} */
