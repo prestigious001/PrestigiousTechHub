@@ -10,9 +10,7 @@ const [post, setPost] = useState();
 
 
 useEffect(() => {
-  // const numberOfItems = 5;
   axios
-  // .get('https://jsonplaceholder.typicode.com/users').then((response) => setUsers(response.data))
 
   .get('https://jsonplaceholder.typicode.com/photos').then((resp) => setPost(resp.data));
   
@@ -22,18 +20,20 @@ useEffect(() => {
    
 
   return (
-   <>
-    
 
+   <>
+  
   <div className='container'>
-    <div className="row text center" >
+    <div className="row text-center" >
+
+      <h1 className='mt-3'>Testimonials</h1>
   {post?.slice(0,12).map((pos) => (
      
       <div className="col-6 col-md-3 col-lg-3 mt-5 " key={pos.id}>
       
-      <h6>{pos.title}</h6>
-      <img src={pos.thumbnailUrl} alt="" />
-
+      
+      <img src={pos.thumbnailUrl} alt=""  style={{borderRadius: '200px',marginBottom:'20px'}}/>
+      <h6 className='mt-3'>{pos.title}</h6>
         </div>
     ))}
     

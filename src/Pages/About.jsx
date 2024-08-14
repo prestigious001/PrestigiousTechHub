@@ -21,12 +21,12 @@ export default function Image () {
 
     <div className="container-fluid aboutpage"  >
       <div className="row con-about" >
-        <h2 className='mt-3 text-primary text-center how' ><strong>There is More to Our Story !</strong> </h2>
+        <h2 className='mt-3 text-primary text-center' ><strong>There is More to Our Story !</strong> </h2>
         <div className="col-12 col-md-6 col-lg-3  text-center mt-5 about">
         <Images src = "https://media.istockphoto.com/id/1486359843/photo/api-application-programming-interface-software-development-tool.jpg?s=1024x1024&w=is&k=20&c=a7R9bW9tby0iX5YxSDL4Zu7_9fJKG9lNBHDm7OEGFy0=" title = {title} height = {height} />
         </div>
         <div className="col-12 col-md-6 col-lg-3 text-center mt-5">
-        <Images src = {Cover} title = {title} height = {height} />
+        <Images src = {Cover} title = {title} height = {height}/>
     
         </div>
         <div className="col-12 col-md-6 col-lg-3 text-center mt-5">
@@ -49,7 +49,7 @@ export default function Image () {
         <Images src = {abtract} title = {title} height = {height} />
         </div>
 <img src="" alt="" />
-        <h3 className='text-center mb-5 mt-3 how'><strong>HOW IT IS GOING !</strong> </h3>
+        <h3 className='text-center mb-5 mt-3 '><strong>HOW IT IS GOING !</strong> </h3>
         <div className="col-12 col-md-12 col-lg-6  con-txt" >
         Lorem ipsum dolor sit, amet consectetur adipisicing
          elit. Molestias deserunt numquam nobis corporis

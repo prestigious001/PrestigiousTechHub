@@ -80,11 +80,11 @@ useEffect(() => {
 
    
       <div className='container'>
-        <h2 className='text-center mt-5 mb-4 how'><strong> Meet the Brains Behind the Hub</strong></h2>
+        <h2 className='text-center mt-5 mb-4 '><strong> Meet the Brains Behind the Hub</strong></h2>
         <div className="row text-center" >
        
         {users?.slice(0, 8).map((user) => (
-          <div className="col-12 col-md-3 col-lg-3 text-cente mt-5 mb-1 " key = {user.id}>
+          <div className="col-12 col-md-3 col-lg-3 text-cente mt-5 mb-5 " key = {user.id}>
              {usersPics?.slice(0, 1).map((pic) => (
             <img  src={pic.url} alt="" width={100} height={100} style={{borderRadius: '200px',marginBottom:'20px'} } />
           ))}

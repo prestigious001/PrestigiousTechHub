@@ -1,5 +1,6 @@
 import React from 'react';
 import Courses from '../Component/Courses';
+import Test from './Testimonials';
 
 // import Cover from '../images/Cover.png';
 // import { useState,useEffect } from 'react';
@@ -44,7 +45,7 @@ export default function Home() {
 
     <div>
       <div className="content">
-
+        <Test/>
       </div>
     </div>
    </div>
