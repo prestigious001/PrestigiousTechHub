@@ -134,6 +134,9 @@ outline: none;
     /* border: 1px solid #ccc; */
     /* margin-top: -20rem; */
 }
+.test-dis{
+    display: flex;
+}
 
 /* .cont-img{
     width: 3rem;

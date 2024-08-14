@@ -4,17 +4,10 @@ import axios from 'axios';
 
 
 export default function Test() {
-const [users, setUsers] = useState();
-const [post, setPost] = useState();
-useEffect(() => {
-  // const numberOfItems = 5;
-  axios
-  .get('https://jsonplaceholder.typicode.com/users').then((response) => setUsers(response.data))
 
-  // .get('https://jsonplaceholder.typicode.com/posts').then((resp) => setPost(resp.data));
-  
-  
-},[]);
+
+const [post, setPost] = useState();
+
 
 useEffect(() => {
   // const numberOfItems = 5;
@@ -30,28 +23,22 @@ useEffect(() => {
 
   return (
    <>
-  
-  <div>
+    
 
-    {post?.slice(0,4).map((pos) => (
-      <ul>
-        <li key={pos.id}>
-      <p>{pos.title}</p>
+  <div className='container'>
+    <div className="row text center" >
+  {post?.slice(0,12).map((pos) => (
+     
+      <div className="col-6 col-md-3 col-lg-3 mt-5 " key={pos.id}>
+      
+      <h6>{pos.title}</h6>
       <img src={pos.thumbnailUrl} alt="" />
 
-        </li>
-      </ul>
+        </div>
     ))}
-
-    {users?.slice(0, 2).map((user) => (
-      <div key = {user.id}>
-        <h4>{user.name}</h4>
-        <p>{user.username}</p>
-        <p>{user.email}</p>
-        <p>{user.website}</p>
-        <p>{user.phone}</p>
-      </div>
-    ))}
+    
+    </div>
+    
   </div>
   
    </>

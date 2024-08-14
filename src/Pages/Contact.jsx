@@ -81,7 +81,7 @@ useEffect(() => {
    
       <div className='container'>
         <h2 className='text-center mt-5 mb-4 how'><strong> Meet the Brains Behind the Hub</strong></h2>
-        <div className="row " >
+        <div className="row text-center" >
        
         {users?.slice(0, 8).map((user) => (
           <div className="col-12 col-md-3 col-lg-3 text-cente mt-5 mb-1 " key = {user.id}>
