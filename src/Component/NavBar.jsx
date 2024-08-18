@@ -17,7 +17,7 @@ export default function NavBar() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
              
         <li className="nav-item" onClick={() => {setMenu("home")}}>
-        <Link to="/home" className="nav-link active" aria-current="page">
+        <Link to="/" className="nav-link active" aria-current="page">
         Home {menu === 'home'?<hr/>:<></>}
         </Link>
         
@@ -54,9 +54,15 @@ export default function NavBar() {
         </li>
       </ul>
         <div classNameName="d-flex start-btn" >
-          <input type="text" className='search ' placeholder='Search anything here . . ' />
-          <button className='btn signin btn-outline-dark m-2' >Sign In</button>
-          <button className='btn btn-primary text-white btn-xl ml-2'>Get Started</button>
+          <input type="text" className='search ' placeholder='Search for any info here . . ' />
+          
+          <Link to="/login" className="" >
+         <button className='btn signin btn-outline-dark m-2' >Sign In</button>
+        </Link>
+          <Link to="/getstarted" className="" >
+        <button className='btn btn-primary text-white'>Get Started</button>
+        </Link>
+         
         </div>
     </div>
   </div>

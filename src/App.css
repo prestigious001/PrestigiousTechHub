@@ -137,7 +137,16 @@ outline: none;
 .test-dis{
     display: flex;
 }
+.input-ft{
+    outline: none;
+    border: none;
+    /* background: transparent; */
+}
+/* .agree{
+    display: flex;
+} */
 
 /* .cont-img{
     width: 3rem;
 } */
+

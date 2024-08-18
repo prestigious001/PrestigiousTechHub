@@ -10,6 +10,8 @@ import Contact from './Pages/Contact';
 import Blog from './Pages/Blog';
 import Footer from './Pages/Footer';
 import Testimonials from './Pages/Testimonials';
+import GetStarted from './Pages/GetStarted';
+
 
 
 export default function App() {
@@ -20,14 +22,16 @@ export default function App() {
      <Router>
       <NavBar />
       <Routes>
-        <Route path='/home' element = {<Home/>}/>
+        <Route path='/' element = {<Home/>}/>
         <Route path='/about' element = {<About/>}/>
         <Route path='/blog' element = {<Blog/>}/>
         <Route path='/contact' element = {<Contact/>}/>
         < Route path='/testimonials' element= {<Testimonials/>}/>
+        < Route path='/getstarted' element = {<GetStarted/>} />
 
       </Routes> 
      </Router>
+    
      <Footer/>
     </>
   )

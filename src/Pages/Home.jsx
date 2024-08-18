@@ -1,6 +1,9 @@
 import React from 'react';
 import Courses from '../Component/Courses';
 import Test from './Testimonials';
+import {Link} from 'react-router-dom';
+
+
 
 // import Cover from '../images/Cover.png';
 // import { useState,useEffect } from 'react';
@@ -31,10 +34,14 @@ export default function Home() {
                     repellendus quae eum expedita quod 
                     ipsum. Debitis, excepturi cupiditate.
                 </p>
-                <button className='btn signin  btn-lg btn-outline-light '>Sign In</button>
-                <button className='btn btn-primary text-white get-btn'>
-                  Get Started
-                </button>
+             
+                <Link to="/Login" className="" >
+                <button className='btn signin btn-outline-dark m-2' >Sign In</button>
+                </Link>
+                  <Link to="/getstarted" className="" >
+                <button className='btn btn-primary text-white'>Get Started</button>
+                </Link>
+                      
               </div>
               <div className="col-lg-2"></div>
             </div>

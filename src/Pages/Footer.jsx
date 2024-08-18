@@ -36,8 +36,8 @@ export default function Footer() {
         <h4 className=''> OUR CONTACT</h4>
 
         <form action="" className='mt-4'>
-            <input type="emal" placeholder='enter email . . ' required /><br />
-            <textarea name=""  rows="3" placeholder='enter your message... ' required ></textarea><br />
+            <input type="emal" placeholder='enter email . . ' required  className='input-ft' /><br />
+            <textarea name=""  rows="3" placeholder='enter your message... ' required  className='input-ft'></textarea><br />
             <button className='btn text-light btn-outline-primary ft-btn'>SEND</button>
         </form>
 
